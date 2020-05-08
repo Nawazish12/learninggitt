@@ -1,0 +1,160 @@
+body{
+	background-color:#F5F5F5;
+}
+
+/* uppar navbar */
+li{
+	display: inline;
+	padding: 8px;
+}
+
+/* lower navbar img */
+.imgg{
+    height: 50px;;
+}
+
+/* marquee tag */
+.marquee{
+	margin-left: 25px;
+	margin-right: 25px;
+	background-color: rgb(50, 115, 220);
+    color: white;
+    padding-top: 3px;
+    margin-top: 2px;
+}
+.img-center{
+    text-align: center;
+    font-family: Georgia, serif
+}
+.align{
+    text-align: justify;
+}
+
+/* another section  */
+.divmain{
+	
+	text-align: center;
+	
+}
+.pad{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+h6{
+	font-size: 15px;
+    font-family: Georgia, serif;
+    color: white;
+}
+h3{
+	font-size: 50px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+}
+
+/* what we doing start in styling */
+.one,.two,.three,.five,.six{
+ 
+    
+    background-color: white;
+    height: 200px;
+    padding-top: 40px;
+}
+.four{
+    background-color: white;
+    height: 200px;
+    padding-top: 40px
+
+}
+ 
+.box-shadow11{
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+
+}
+
+@media(max-width:576px){
+    .one,.two,.three,.four,.five,.six{
+        margin-top: 24px;
+    }
+    
+}
+
+
+/* scrollling content */
+
+/* box hight and color  */
+.upp1{
+    height: 80px;
+    
+    background-color:#F5F5F5;
+
+}
+/* for box spacing margin  */
+.upp1{
+    margin-bottom: 25px;
+}
+
+/* for box inside padding top and left  */
+.pddtop{
+    padding-top: 22px;
+    padding-left: 22px;
+    
+}
+ .pdl{
+     
+     color:blue; 
+     padding-top: 8px;  
+     padding-left: 20px;
+     
+ }
+ .linein{
+     display: flex;
+ }
+
+/* footer section */
+
+
+.colorr{
+	
+    color: white;
+}
+
+li{
+	display: inline;
+	padding: 6px;
+}
+
+.padd{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+/* for marquee tag */
+.justy{
+    text-align: justify;
+    font-size:medium;
+}
+
+.center3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@media(max-width:600px){
+    .center3{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+}
+.img-centerr{
+    text-align: center;
+    font-family: Georgia, serif
+}
+
+.lin2:hover{
+    transform: scale(1.1);
+}
